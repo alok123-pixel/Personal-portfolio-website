@@ -29,7 +29,7 @@ const Hero = () => {
         </h1>
 
         <h2 className="text-lg sm:text-xl md:text-2xl mt-3 text-gray-600 dark:text-gray-300">
-          🚀 Crafting Stylish UIs with <span className="font-semibold text-purple-600 dark:text-purple-400">React</span> & <span className="font-semibold text-purple-600 dark:text-purple-400">Tailwind</span>
+           Crafting Stylish UIs with <span className="font-semibold text-purple-600 dark:text-purple-400">React</span> & <span className="font-semibold text-purple-600 dark:text-purple-400">Tailwind</span>
         </h2>
 
         <p className="text-sm sm:text-base mt-4 text-gray-500 dark:text-gray-400">
