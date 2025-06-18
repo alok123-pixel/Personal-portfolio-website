@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-[#0f0f0f] dark:text-white;
+}
+
+
+
+/* 👇 Animation for Hero / Cards */
+@keyframes tilt {
+  0%, 50%, 100% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(1deg);
+  }
+  75% {
+    transform: rotateZ(-1deg);
+  }
+}
+
+.animate-tilt {
+  animation: tilt 10s infinite linear;
+}
